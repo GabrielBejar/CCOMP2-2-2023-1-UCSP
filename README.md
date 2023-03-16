@@ -2,3 +2,6 @@
 # GABO
 # Ciencia de la computación 1
 # Aprobaré con 17
+
+
+### editando desde github
