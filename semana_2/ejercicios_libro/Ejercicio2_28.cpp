@@ -14,7 +14,7 @@ int main() {
     int d4;
 
     cout << "Ingrese un numero entero con cuatro digitos: ";
-    cin >> num;
+    cin >> num;  //9745
 
   
     d1 = num % 10;
