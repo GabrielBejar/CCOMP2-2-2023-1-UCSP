@@ -9,29 +9,29 @@ int main() {
     int b;
 
 
-    cout << "Ingrese el número 1: ";
+    cout << "Ingrese el numero 1: ";
     cin >> a;
-    cout << "Ingrese el número 2: ";
+    cout << "Ingrese el numero 2: ";
     cin >> b;
 
 
     if(a % 2 == 0)
-        cout << "El primer número es PAR" << endl;
+        cout << "El primer numero es PAR" << endl;
         
     else 
-        cout << "El primer número es IMPAR" << endl;
+        cout << "El primer numero es IMPAR" << endl;
 
     if(b % 2 == 0)
-        cout << "El segundo número es PAR" << endl;
+        cout << "El segundo numero es PAR" << endl;
         
     else 
-        cout << "El segundo número es IMPAR" << endl;
+        cout << "El segundo numero es IMPAR" << endl;
         
     if ((a + b) % 2 == 0)
-        cout << "La suma de los números es PAR" << endl;
+        cout << "La suma de los numeros es PAR" << endl;
 
     else
-        cout << "La suma de los números es IMPAR" << endl;
+        cout << "La suma de los numeros es IMPAR" << endl;
 
 
     return 0;
