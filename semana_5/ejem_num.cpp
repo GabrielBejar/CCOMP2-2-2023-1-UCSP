@@ -14,11 +14,8 @@ using namespace std;
 
 int contarDigEnInt(long long nume){
     int cont = 0;
-    for(int i = 0; i > 0 ; i++){
-        cont++;
+    for(cont; cont > 0 ; cont++){
         nume /= 10;
-        
-   
     }
     return cont;
 }
