@@ -4,32 +4,29 @@ y que verifique si los elementos de un arreglo de enteros representan un palindr
 */
 
 
+
 #include <iostream>
-#include <array>
 using namespace std;
 
 
-bool esPalindromo(int x[], int limite){
-    
-    for (int i = 0; i < limite - 2; i++) {
-        if(x[i] == x[limite - 1])
-            continue;
-        else{
-            return false;
-        }
+
+bool esPalindromoRecur(const int arr[], const int tam) {
+    if (tam == 1) {
+        return true;
     }
-
-
+    if (arr[0] != arr[tam - 1]) {
+        return false;
+    }
+    return esPalindromoRecur(arr + 1, tam - 2);
 }
 
 
 int main(){
 
-    int arr[5] = {1,2,3,2,1};
-    int lenar = 5;
-           
-    cout << esPalindromo(arr, lenar) << endl;
-    
+    int arr1[5] = {1,2,3,2,2};
+    int tamarr = 5;
+
+    cout << esPalindromoRecur(arr1, tamarr) << endl;
 
     return 0;
 }
