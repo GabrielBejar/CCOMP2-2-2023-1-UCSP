@@ -46,14 +46,14 @@ void CommissionEmployee::setCommissionRate(double rate) {
         throw invalid_argument("Commission rate must be > 0.0 and < 1.0");
     }
 
-    commissionRate = rate;
+    comissionRate = rate;
 }
 double CommissionEmployee::getCommissionRate() const {
-    return commissionRate;
+    return comissionRate;
 }
 
 double CommissionEmployee::earnings() const {
-return commissionRate * grossSales;
+return comissionRate * grossSales;
 }
 
 string CommissionEmployee::toString() const {
@@ -62,6 +62,6 @@ string CommissionEmployee::toString() const {
     output << "commission employee: " << firstName << " " << lastName 
         << "\nsocial security number: " << socialSecurityNumber
         << "\ngross sales: " << grossSales
-        << "\ncommission rate: " << commissionRate;
+        << "\ncommission rate: " << comissionRate;
     return output.str();
 }
