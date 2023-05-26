@@ -43,6 +43,10 @@
         "xtr1common": "cpp",
         "xutility": "cpp",
         "string": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "array": "cpp",
+        "sstream": "cpp",
+        "xlocmon": "cpp",
+        "xloctime": "cpp"
     }
 }
